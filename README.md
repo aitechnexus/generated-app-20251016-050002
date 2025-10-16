@@ -1,7 +1,7 @@
 # GitFlare
 A visually stunning and high-performance GitHub client built entirely on the Cloudflare native stack for browsing repositories and code.
 GitFlare provides an elegant and streamlined interface for browsing GitHub users, organizations, repositories, and code. The application leverages Cloudflare Workers as a backend proxy to the GitHub API, ensuring fast data retrieval from the edge, and uses Cloudflare's serverless infrastructure for hosting. The frontend is a sophisticated single-page application built with React, Vite, and shadcn/ui, focusing on an exceptional user experience, breathtaking visual design, and delightful micro-interactions.
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/aitechnexus/generated-app-20251016-050002)
 ## Key Features
 - **GitHub Search:** Instantly find any GitHub user or organization.
 - **Repository Grid:** View repositories in a visually appealing card layout with key stats like stars and primary language.
@@ -54,7 +54,7 @@ Follow these instructions to get the project up and running on your local machin
 This project is designed for easy deployment to the Cloudflare network.
 ### One-Click Deploy
 You can deploy this application to your own Cloudflare account with a single click.
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/aitechnexus/generated-app-20251016-050002)
 ### Manual Deployment via CLI
 1.  **Build the application:**
     This command bundles the frontend and prepares the worker for production.
